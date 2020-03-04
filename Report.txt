@@ -1,0 +1,21 @@
+1.Quadratic probing cache performance is okay and its computation time is slightly less than double hashing.
+  Double hashing has poor cache performance, it requires more computation time as two hash functions need to be computed.
+
+2.Based on the output of the program, quadratic probing has some advantage in searching, because of its technique. the hash index increased exponentially can make sure it will approach the correct
+  area of the hash table faster then double hashing.
+
+3.The worst case of complexity of inserting 0.1m will be inserting takes k * 0.1 steps.
+  The worst case of complexity of inserting 0.2m will be inserting takes k * 0.2 steps.
+                                          .
+                                          .
+                                          .
+  The worst case of complexity of inserting 0.5m will be inserting takes k * 0.5 steps.
+
+
+
+  The worst case of complexity of searching 0.1m will be searching takes k * 0.1 steps.
+  The worst case of complexity of searching 0.2m will be searching takes k * 0.2 steps.
+                                            .
+                                            .
+                                            .
+  The worst case of complexity of searching 0.5m will be searching takes k * 0.5 steps.
